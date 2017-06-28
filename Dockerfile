@@ -1,6 +1,6 @@
 FROM ubuntu
 
-MAINTAINER Isaac A, <isaac@isaacs.site>
+MAINTAINER Isaac A., <isaac@isaacs.site>
 
 RUN apt update && \
     apt upgrade -y && \
