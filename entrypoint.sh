@@ -19,7 +19,7 @@ if [ -f OXIDE_FLAG ] || [ "${OXIDE}" = 1 ]; then
 fi
 
 # Fix for Rust not starting
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$(pwd)
+export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}:$(pwd)/RustDedicated_Data/Plugins/x86_64"
 
 # Run the Server
 node /wrapper.js "${MODIFIED_STARTUP}"
